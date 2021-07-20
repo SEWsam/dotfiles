@@ -7,6 +7,9 @@ if [[ "$SCRIPTDIR" != "." ]]; then
     exit
 fi
 
+# zsh setup
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+stow -t ~/ zsh
 
 # nvim setup 
 curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
