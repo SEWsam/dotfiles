@@ -10,6 +10,7 @@ set mouse=a
 set ignorecase
 set noshowmode
 set showcmd
+set hidden
 
 " Keybinds
 inoremap jj <ESC>
