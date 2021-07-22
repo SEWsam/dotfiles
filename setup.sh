@@ -8,7 +8,7 @@ if [[ "$SCRIPTDIR" != "." ]]; then
 fi
 
 # zsh setup
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"  -- take this out for now
 stow -t ~/ zsh
 
 # nvim setup 
