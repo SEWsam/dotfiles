@@ -31,3 +31,12 @@ lua << EOF
 require("bufferline").setup{}
 EOF
 
+" plugin config
+let g:ale_linters = {
+    \ 'cpp': ['clang'],
+    \ 'c': ['clang'],
+    \ 'python': ['pylint']
+\}
+
+let g:deoplete#enable_at_startup = 1
+
