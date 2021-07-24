@@ -38,5 +38,8 @@ let g:ale_linters = {
     \ 'python': ['pylint']
 \}
 
+let g:ale_python_auto_pipenv = 1
+let g:ale_python_pylint_auto_pipenv = 1
+
 let g:deoplete#enable_at_startup = 1
 
