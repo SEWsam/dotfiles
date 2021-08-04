@@ -4,7 +4,7 @@
 syntax on
 set title
 set number relativenumber
-set tabstop=8 shiftwidth=4 expandtab smarttab autoindent
+set expandtab smarttab autoindent
 set nowrap
 set mouse=a
 set ignorecase
@@ -31,6 +31,7 @@ lua << EOF
 require("bufferline").setup{}
 EOF
 
+
 " plugin config
 let g:ale_linters = {
     \ 'cpp': ['clang'],
@@ -40,3 +41,5 @@ let g:ale_linters = {
 
 let g:deoplete#enable_at_startup = 1
 
+" please don't change this polyglot
+set tabstop=8 shiftwidth=4 
