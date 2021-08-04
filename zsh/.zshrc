@@ -1,7 +1,10 @@
+# PATH
+PATH=$HOME/.local/bin:$PATH
+
 # ohmyzsh config
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git)
+plugins=(git virtualenvwrapper)
 source $ZSH/oh-my-zsh.sh
 
 # some env vars
